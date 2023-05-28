@@ -1,0 +1,35 @@
+.add-todo {
+  margin-bottom: 20px;
+}
+
+.add-todo h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.add-todo input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.add-todo button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-todo button:hover {
+  background-color: #45a049;
+}
+
+.add-todo button:focus {
+  outline: none;
+}

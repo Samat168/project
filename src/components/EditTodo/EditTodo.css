@@ -1,0 +1,56 @@
+.main-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.close {
+  text-align: right;
+}
+
+.close button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.edit-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.edit-button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.edit-button:hover {
+  background-color: #45a049;
+}
+
+.edit-button:focus {
+  outline: none;
+}
